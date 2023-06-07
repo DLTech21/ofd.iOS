@@ -39,6 +39,12 @@
     [fonts addObject:@{@"kaiti_gb2312":kai}];
     NSString *couriernew = [[NSBundle mainBundle] pathForResource:@"cour" ofType:@"ttf"];
     [fonts addObject:@{@"courier new":couriernew}];
+    NSString *simfang = [[NSBundle mainBundle] pathForResource:@"SIMFANG" ofType:@"TTF"];
+    [fonts addObject:@{@"仿宋":simfang}];
+    [fonts addObject:@{@"仿宋_gb2312":simfang}];
+    NSString *xiaosong = [[NSBundle mainBundle] pathForResource:@"方正小标宋简体" ofType:@"ttf"];
+    [fonts addObject:@{@"小标宋体":xiaosong}];
+    [fonts addObject:@{@"方正小标宋简体":xiaosong}];
     NSString *result = [OFDParserSDK drawPage:docsdir pageIndex:0 ofd:ofd fontMap:fonts];
     NSLog(@"result: %@", result);
     
