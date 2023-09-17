@@ -6,7 +6,7 @@
 //
 
 #import "ViewController.h"
-#import "OFDParserSDK.h"
+#import <ofdparser_framework/ofdparser_framework.h>
 
 @interface ViewController ()<UIPageViewControllerDataSource, UIPageViewControllerDelegate>
 
@@ -23,7 +23,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"999" ofType:@"ofd"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"a" ofType:@"ofd"];
     void *ofd = [OFDParserSDK readOfd:path];
     long counts = [OFDParserSDK getPageCount:ofd];
     self.ofdVaule = [NSValue valueWithPointer:ofd];

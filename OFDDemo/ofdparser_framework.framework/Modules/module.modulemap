@@ -1,0 +1,6 @@
+framework module ofdparser_framework {
+  umbrella header "ofdparser_framework.h"
+
+  export *
+  module * { export * }
+}
