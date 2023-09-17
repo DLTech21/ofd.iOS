@@ -16,8 +16,6 @@
 		46269DB82A28299C00729E5C /* OFDDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46269DB72A28299C00729E5C /* OFDDemoTests.m */; };
 		46269DC22A28299C00729E5C /* OFDDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46269DC12A28299C00729E5C /* OFDDemoUITests.m */; };
 		46269DC42A28299C00729E5C /* OFDDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46269DC32A28299C00729E5C /* OFDDemoUITestsLaunchTests.m */; };
-		46269DD52A282AEA00729E5C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 46269DD42A282AEA00729E5C /* libz.tbd */; };
-		46269DD72A282AF000729E5C /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 46269DD62A282AF000729E5C /* libiconv.tbd */; };
 		46269DDA2A282F4E00729E5C /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 46269DD92A282F4E00729E5C /* ViewController.mm */; };
 		46269DDC2A282F7900729E5C /* 1.ofd in Resources */ = {isa = PBXBuildFile; fileRef = 46269DDB2A282F7900729E5C /* 1.ofd */; };
 		46269E2F2A28825B00729E5C /* symbol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46269E202A28825B00729E5C /* symbol.ttf */; };
@@ -36,7 +34,6 @@
 		46269E3C2A28825B00729E5C /* Latha.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46269E2D2A28825B00729E5C /* Latha.ttf */; };
 		46269E3D2A28825B00729E5C /* calibri.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46269E2E2A28825B00729E5C /* calibri.ttf */; };
 		46269E402A288C7D00729E5C /* 999.ofd in Resources */ = {isa = PBXBuildFile; fileRef = 46269E3F2A288C7D00729E5C /* 999.ofd */; };
-		4680823D2A7BAF4E001D7078 /* a.ofd in Resources */ = {isa = PBXBuildFile; fileRef = 4680823C2A7BAF4E001D7078 /* a.ofd */; };
 		46C2782E2AB6111E0018E78F /* ofdparser_framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C2782A2AB610A90018E78F /* ofdparser_framework.framework */; };
 		46C2782F2AB6111E0018E78F /* ofdparser_framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 46C2782A2AB610A90018E78F /* ofdparser_framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -89,8 +86,6 @@
 		46269DBD2A28299C00729E5C /* OFDDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OFDDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46269DC12A28299C00729E5C /* OFDDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OFDDemoUITests.m; sourceTree = "<group>"; };
 		46269DC32A28299C00729E5C /* OFDDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OFDDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
-		46269DD42A282AEA00729E5C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		46269DD62A282AF000729E5C /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		46269DD82A282AFC00729E5C /* OFDParserSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFDParserSDK.h; sourceTree = "<group>"; };
 		46269DD92A282F4E00729E5C /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		46269DDB2A282F7900729E5C /* 1.ofd */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.ofd; sourceTree = "<group>"; };
@@ -110,9 +105,7 @@
 		46269E2D2A28825B00729E5C /* Latha.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Latha.ttf; sourceTree = "<group>"; };
 		46269E2E2A28825B00729E5C /* calibri.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = calibri.ttf; sourceTree = "<group>"; };
 		46269E3F2A288C7D00729E5C /* 999.ofd */ = {isa = PBXFileReference; lastKnownFileType = file; path = 999.ofd; sourceTree = "<group>"; };
-		4680823C2A7BAF4E001D7078 /* a.ofd */ = {isa = PBXFileReference; lastKnownFileType = file; path = a.ofd; sourceTree = "<group>"; };
 		46C2782A2AB610A90018E78F /* ofdparser_framework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ofdparser_framework.framework; path = OFDDemo/ofdparser_framework.framework; sourceTree = "<group>"; };
-		46C8D5B62AAABF88009A1F8C /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,8 +113,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46269DD72A282AF000729E5C /* libiconv.tbd in Frameworks */,
-				46269DD52A282AEA00729E5C /* libz.tbd in Frameworks */,
 				46C2782E2AB6111E0018E78F /* ofdparser_framework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -167,7 +158,6 @@
 		46269D9A2A28299900729E5C /* OFDDemo */ = {
 			isa = PBXGroup;
 			children = (
-				4680823C2A7BAF4E001D7078 /* a.ofd */,
 				46269E3F2A288C7D00729E5C /* 999.ofd */,
 				46269E1F2A28825B00729E5C /* font */,
 				46269DDB2A282F7900729E5C /* 1.ofd */,
@@ -208,9 +198,6 @@
 			isa = PBXGroup;
 			children = (
 				46C2782A2AB610A90018E78F /* ofdparser_framework.framework */,
-				46C8D5B62AAABF88009A1F8C /* libc++.1.tbd */,
-				46269DD62A282AF000729E5C /* libiconv.tbd */,
-				46269DD42A282AEA00729E5C /* libz.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -347,7 +334,6 @@
 				46269DAB2A28299C00729E5C /* LaunchScreen.storyboard in Resources */,
 				46269E382A28825B00729E5C /* simkai.ttf in Resources */,
 				46269E402A288C7D00729E5C /* 999.ofd in Resources */,
-				4680823D2A7BAF4E001D7078 /* a.ofd in Resources */,
 				46269E312A28825B00729E5C /* SIMFANG.TTF in Resources */,
 				46269E3B2A28825B00729E5C /* simsun.ttf in Resources */,
 				46269E302A28825B00729E5C /* wingding.ttf in Resources */,
