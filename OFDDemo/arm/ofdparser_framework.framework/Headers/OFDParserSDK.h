@@ -16,4 +16,6 @@
 
 +(NSString *)drawPage:(NSString *)dir pageIndex:(int)Index ofd:(void *)ofd fontMap:(NSMutableArray*)map;
 
++(void)freeOFD:(void *)ofd;
+
 @end
